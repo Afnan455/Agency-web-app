@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_testimonials",
+  "info": {
+    "singularName": "client-testimonial",
+    "pluralName": "client-testimonials",
+    "displayName": "ClientTestimonial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
